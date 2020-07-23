@@ -1,0 +1,112 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+    text-align: center;
+}
+h1{
+    color: darkred;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+.main{
+    padding: 20px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: rgb(192, 227, 227);
+    width: 600px;
+    height:650px;
+}
+
+#to-do-item{
+    margin: 30px;
+    width: 330px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 25px;
+    outline: none;
+    border-color: rgb(107, 140, 189);
+}
+
+#btn1{
+    width: 78px;
+    height: 40px;
+    background-color: rgb(171, 251, 166);
+    margin: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+}
+
+#btn2{
+    width: 90px;
+    height: 40px;
+    background-color: rgb(227, 65, 65);
+    border-radius: 20px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+
+}
+.field{
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.field:focus{
+    border: 0;
+    border-bottom: 2px solid rgb(2, 2, 2);
+}
+
+li{
+    text-decoration: none;
+}
+.field{
+    height: 30px;
+    margin: 5px;
+    font-size: 20px;
+
+}
+
+.field[disabled]{
+    color: black;
+}
+
+.btn3{
+    width: 70px;
+    height: 30px;
+    background-color: rgb(241, 211, 140);
+    border-radius: 20px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    margin: 10px;
+    border-color: burlywood;
+}
+.btn4{
+    width: 60px;
+    height: 30px;
+    background-color: rgb(46, 238, 232);
+    border-radius: 20px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border-color: rgb(48, 162, 145);
+}
+.btn3[disabled],.btn4[disabled]{
+    cursor: default;
+}
+.btn5{
+    width: 60px;
+    height: 30px;
+    background-color: rgb(255, 163, 237);
+    border-radius: 20px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border-color: rgb(241, 128, 190);
+    margin: 10px;
+}
